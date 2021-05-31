@@ -44,6 +44,7 @@
           * lzop (.tar.lzo , .tzo)
           * 7zip (.tar.7z)
           * xz (.tar.xz)
+          * Zstandard (.tar.zst, .tzst)
     * Stuffit Archives (.bin, .sit)
     * ZIP Archive (.zip)
     * ZIP Archived Comic Book (.cbz)

@@ -512,6 +512,9 @@ fr_command_cfile_test (FrCommand   *comm)
 	}
 	else if (is_mime_type (comm->mime_type, "application/x-lzop")) {
 		compress_cmd = "lzop";
+	}
+	else if (is_mime_type (comm->mime_type, "application/zstd")) {
+		compress_cmd = "zstd";
 	} else { // i.e. if (is_mime_type (comm->mime_type, "application/x-rzip"))
 		g_warning ("Test integrity is unsupported for %s\n", comm->mime_type);
 		return;
